@@ -14,15 +14,15 @@ func ExampleAvg() {
 		},
 		{
 			ID: 2,
-			Amount: 3_000_00,
+			Amount: 2_000_00,
 		},
 		{
 			ID: 3,
-			Amount: 4_000_00,
+			Amount: 3_000_00,
 		},
 	}
 
 	fmt.Println(Avg(payment))
-	//Output: 400000
+	//Output: 200000
 	
 }
