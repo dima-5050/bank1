@@ -11,14 +11,17 @@ func ExampleAvg() {
 		{
 			ID: 1,
 			Amount: 1_000_00,
+			Category: "Auto",
 		},
 		{
 			ID: 2,
 			Amount: 2_000_00,
+			Category: "Restaurant",
 		},
 		{
 			ID: 3,
 			Amount: 3_000_00,
+			Category: "cafe",
 		},
 	}
 
